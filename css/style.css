@@ -45,8 +45,9 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  background: #212121;
-  color: #fff;
+  /* background: #3c3b3b; */
+  background: rgb(49, 49, 50);
+  background: linear-gradient(180deg, rgba(49, 49, 50, 0.8225665266106442) 31%, rgba(59, 59, 62, 0.4472163865546218) 100%, rgba(0, 212, 255, 1) 100%);
   justify-content: space-between;
   align-items: center;
   z-index: 1;
@@ -143,6 +144,11 @@ section {
   background-image: url(/images/thebeach_main.jpg);
   background-size: cover;
   scroll-snap-align: center;
+
+}
+
+section a {
+  text-decoration: none;
 }
 
 section:nth-child(3) {
