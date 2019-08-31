@@ -8,19 +8,13 @@
   box-sizing: border-box;
 }
 
-/* Navbar */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  position: relative;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  line-height: 1.5;
-  background-color: #212121;
-
 }
 
 .brand {
@@ -45,7 +39,6 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  /* background: #3c3b3b; */
   background: rgb(49, 49, 50);
   background: linear-gradient(180deg, rgba(49, 49, 50, 0.8225665266106442) 31%, rgba(59, 59, 62, 0.4472163865546218) 100%, rgba(0, 212, 255, 1) 100%);
   justify-content: space-between;
@@ -120,17 +113,6 @@ header ul li ul li {
 
 /* SHOWCASE */
 
-.smooth {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  scroll-behavior: smooth;
-  overflow-y: hidden;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
-
 section {
   position: relative;
   display: flex;
@@ -144,7 +126,6 @@ section {
   background-image: url(/images/thebeach_main.jpg);
   background-size: cover;
   scroll-snap-align: center;
-
 }
 
 section a {
@@ -152,7 +133,7 @@ section a {
 }
 
 section:nth-child(3) {
-  background-image: url(/images/lithuania.jpeg);
+  background-image: url(/images/lithuania.jpg);
 }
 
 section:nth-child(4) {
@@ -164,13 +145,12 @@ section:nth-child(5) {
 }
 
 section:nth-child(6) {
-  background-image: url(/images/sunsets.jpeg);
+  background-image: url(/images/sunsets.jpg);
 }
 
 section:nth-child(7) {
   background-image: url(/images/about.JPG);
 }
-
 
 section h2 {
   text-transform: uppercase;
