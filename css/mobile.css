@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  header {
+    position: static;
+    display: block;
+  }
+
+  header ul {
+    display: block;
+  }
+
+  header ul li {
+    display: block;
+  }
+
+  header ul li ul {
+    width: 70%;
+    z-index: 1;
+  }
+
+  header ul li {
+    border-right: none;
+  }
+
+  .brand {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* showcase */
+
+  section {
+    display: block;
+    min-height: 40vh;
+    font-size: .5rem;
+  }
+
+  section img {
+    width: 100%;
+  }
+
+  /* footer */
+
+  footer {
+    text-align: center;
+  }
+}
