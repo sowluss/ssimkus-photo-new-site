@@ -1,0 +1,12 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img {
+  width: 25%;
+}
+
+header {
+  position: static;
+}
