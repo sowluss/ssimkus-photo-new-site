@@ -1,12 +1,31 @@
-.gallery {
-  display: flex;
-  flex-direction: column;
-}
-
-.gallery img {
-  width: 25%;
-}
-
 header {
   position: static;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0% 4px;
+  /* margin-top: 110px; */
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding-right: 5px;
+}
+
+.column:last-child {
+  padding-right: 0px;
+}
+
+.column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
 }

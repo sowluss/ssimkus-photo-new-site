@@ -1,6 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap');
 
 *,
 ::before,
@@ -36,7 +37,6 @@ body {
 
 header {
   display: flex;
-  /* position: sticky; */
   position: fixed;
   width: 100%;
   top: 0;
@@ -46,7 +46,6 @@ header {
   align-items: center;
   z-index: 1;
   padding: 1rem;
-
 }
 
 header ul {
@@ -92,7 +91,8 @@ header ul li ul {
   position: absolute;
   top: 39px;
   left: 0;
-  background: #212121;
+  background: rgb(49, 49, 50);
+  background: linear-gradient(180deg, rgba(49, 49, 50, 0.8225665266106442) 31%, rgba(59, 59, 62, 0.4472163865546218) 100%, rgba(0, 212, 255, 1) 100%);
   display: block;
   width: 140px;
   transition: .5s;
@@ -100,7 +100,6 @@ header ul li ul {
   visibility: hidden;
   padding: 5px 0px;
 }
-
 
 header ul li:hover ul {
   opacity: 1;
@@ -110,6 +109,10 @@ header ul li:hover ul {
 header ul li ul li {
   border-right: none;
   border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+header ul li ul li:last-child {
+  border: none;
 }
 
 /* SHOWCASE */
@@ -153,6 +156,8 @@ section:nth-child(7) {
   background-image: url(/images/about.JPG);
 }
 
+/* Gallery Titles */
+
 section h2 {
   position: absolute;
   top: 50%;
@@ -173,4 +178,16 @@ section h2 {
 
 section h2:hover {
   letter-spacing: 15px;
+}
+
+/* Footer */
+
+footer {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  font-family: 'Hind Guntur',
+    sans-serif;
+  background: rgb(49, 49, 50);
+  color: #bbbbbb;
 }

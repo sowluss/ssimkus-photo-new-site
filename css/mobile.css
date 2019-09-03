@@ -38,6 +38,14 @@
     width: 100%;
   }
 
+  /* GALLERIES */
+
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
   /* footer */
 
   footer {
