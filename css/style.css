@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap');
 
+
 *,
 ::before,
 ::after {
@@ -188,6 +189,6 @@ footer {
   padding: 0 1rem;
   font-family: 'Hind Guntur',
     sans-serif;
-  background: rgb(49, 49, 50);
+  background: #313132;
   color: #bbbbbb;
 }
