@@ -10,4 +10,12 @@
   header {
     position: static;
   }
+
+  section#about-page  {
+    font-size: 0.6rem;
+  }
+
+  .about-container {
+    padding: 7rem;
+  } 
 }
