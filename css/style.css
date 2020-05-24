@@ -189,10 +189,9 @@ section h2#welcome:hover {
 /* About Page*/
 
 section#about-page  {
-  position: relative;
   display: flex;
   width: 100%;
-  min-height: 120vh;
+  min-height: 110vh;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
