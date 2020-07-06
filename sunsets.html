@@ -2,199 +2,125 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/galleries.css">
+  <link rel="stylesheet" href="/css/lightbox.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 812px)" href="/css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width: 550px)" href="/css/mobile.css">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118663084-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-118663084-1');
-    </script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="lightbox.css">
-    <link rel="stylesheet" type="text/css" href="reflections.css">
-    <link rel="stylesheet" type="text/css" href="ipad.css" media="screen and (max-width: 1109px)">
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 620px)">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <title>Sowlus Simkus Photogrpahy | Sunsets</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <title>Sowlus Simkus | Sunsets</title>
 </head>
+
+<header id="navbar">
+  <div class="brand">
+    <img src="/logos/SSPlogo.png" alt="logo">
+    <h2>Sowlus Simkus</h2>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#" class="active">Gallery</a>
+      <ul>
+        <li><a href="lithuania.html">Lithuania</a></li>
+        <li><a href="portugal.html">Portugal</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+        <li><a href="sunsets.html" class="active">Sunsets</a></li>
+      </ul>
+    </li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</header>
 
 <body>
 
-    <!-- Header -->
-    <!-- Mobile Collapse button -->
-    <div class="mobile-sidebar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="reflections.html">Reflections</a></li>
-            <li><a href="portugal.html">Portugal</a></li>
-            <li><a href="lithuania.html">Lithuania</a></li>
-            <li><a href="sunsets.html" class="current">Sunsets</a></li>
-        </ul>
-        <button class="sidebar-btn">
-            <span></span>
-        </button>
-    </div>
-    <div class="mobile-branding">
-        <img src="logos/SSPlogo.png" alt="logo">
-        <h2>Sowlus Simkus</h2>
-    </div>
-    <div id="header">
+  <!-- LITHUANIA GALLERY -->
 
-        <!-- Logo & Title -->
-        <div id="branding">
-            <img src="logos/SSPlogo.png" alt="logo" width="70" height="70">
-            <a class="index" href="./index.html">
-                <h2>Sowlus Simkus</h2>
-            </a>
-        </div>
+  <div class="row">
 
-        <!-- Navigation Menu -->
-        <div id="navbar">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="reflections.html">Reflections</a>
-                </li>
-                <li>
-                    <a href="portugal.html">Portugal</a>
-                </li>
-                <li>
-                    <a href="lithuania.html">Lithuania</a>
-                </li>
+    <div class="column">
+      <a href="/Galleries/Sunsets/large/1.jpg" data-lightbox="gallery"
+        data-title="Evening Walk (Klaipėda, Smiltynė, Lithuania)"><img src="/Galleries/Sunsets/small/1.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/2.jpg" data-lightbox="gallery"
+        data-title="Chilly in the Town (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/2.jpg" alt="photo"></a>
 
-                <li>
-                    <a class="current" href="sunsets.html">Sunsets</a>
-                </li>
-            </ul>
-        </div>
+      <a href="/Galleries/Sunsets/large/4.jpg" data-lightbox="gallery"
+        data-title="One Calm Evening (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/4.jpg" alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/5.jpeg" data-lightbox="gallery"
+        data-title="Facing Winter (Klaipėda, Smiltynė, Lithuania)"><img src="/Galleries/Sunsets/small/5.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/6.jpeg" data-lightbox="gallery"
+        data-title="Orange Evening (St. Mary's Island, Kent, UK)"><img src="/Galleries/Sunsets/small/6.jpg"
+          alt="photo"></a>
 
-        <!-- Social Icons -->
-        <div id="social-navbar">
-            <a href="https://www.facebook.com/sowlusimkus/" target="_blank">
-                <i class="fab fa-facebook-f fa-lg"></i>
-            </a>
-            <a href="https://500px.com/sowluss" target="_blank">
-                <i class="fab fa-500px fa-lg"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCvJ94MLfisViSgwBXn9QksQ?view_as=subscriber" target="_blank">
-                <i class="fab fa-youtube fa-lg"></i>
-            </a>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Share</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
-                        <i class="fab fa-facebook-square fa-lg"></i>Share on Facebook</a>
-                    <a href="http://www.twitter.com/share?url=http://www.sowlusimkus.com/sunsets.html" target="_blank">
-                        <i class="fab fa-twitter-square fa-lg"></i>Share on Twiter</a>
-                    <a href="https://pinterest.com/pin/create/button/?url=&media=&description=" target="_blank">
-                        <i class="fab fa-pinterest-square fa-lg"></i>Pin on Pinterest</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <a href="Galleries/Sunsets/Resized_L/Sunset_6.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_6.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_10.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_10.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_13.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_13.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_12.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_12.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunsets_21.jpeg" data-lightbox="gallery_S"
-                data-title="Ready for the night">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_21.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Sunsets/Resized_L/Sunset_19.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunset_19.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_16.jpg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_16.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_17.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_17.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_15.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_15.jpeg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Sunsets/Resized_L/Sunset_2.jpg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_2.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_20.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_20.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_3.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_3.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_4.jpg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_4.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_5.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_5.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_1.jpg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_1.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Sunsets/Resized_L/Sunset_18.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunset_18.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_8.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_8.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_9.jpeg" data-lightbox="gallery_S">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_9.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_14.jpeg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_14.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Sunsets/Resized_L/Sunset_11.jpg" data-lightbox="gallery_S" data-title="">
-                <img src="Galleries/Sunsets/Resized_S/Sunsets_11.jpg" class="focus" width="100%">
-            </a>
-        </div>
     </div>
 
-    <div id="footer">
-        <h6>Copyright &copy; 2019 Sowlus Simkus Photography</h6>
-        <h6>
+    <div class="column">
+      <a href="/Galleries/Sunsets/large/8.jpeg" data-lightbox="gallery"
+        data-title="Sunset for Two (Klaipėda, Olando Kepurė, Lithuania)"><img src="/Galleries/Sunsets/small/8.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/9.jpeg" data-lightbox="gallery"
+        data-title="Stillness of the Evening (Plungė, Lithuania)"><img src="/Galleries/Sunsets/small/9.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/10.jpeg" data-lightbox="gallery"
+        data-title="Baltic Sunset (Klaipėda, Olando Kepurė, Lithuania)"><img src="/Galleries/Sunsets/small/10.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/12.jpeg" data-lightbox="gallery"
+        data-title="When Skies Are Having Fun (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/12.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/3.jpeg" data-lightbox="gallery"
+        data-title="On the Icy Waters (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/3.jpg" alt="photo"></a>
+
+
+
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="script.js"></script>
-    <script src="lightbox.js"></script>
+    <div class="column">
+      <a href="/Galleries/Sunsets/large/14.jpeg" data-lightbox="gallery"
+        data-title="One Winter Evening (Lithuania)"><img src="/Galleries/Sunsets/small/14.jpg" alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/18.jpeg" data-lightbox="gallery"
+        data-title="Evening Walk (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/18.jpeg" alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/16.jpg" data-lightbox="gallery"
+        data-title="A Walk on the Baltic Coastline (Klaipėda, Smiltynė, Lithuania)"><img
+          src="/Galleries/Sunsets/small/16.jpg" alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/17.jpeg" data-lightbox="gallery"
+        data-title="Joyfull Skies (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/17.jpg" alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/13.jpeg" data-lightbox="gallery"
+        data-title="The End of Day (Plungė, Lithuania)"><img src="/Galleries/Sunsets/small/13.jpg" alt="photo"></a>
+
+    </div>
+
+    <div class="column">
+      <a href="/Galleries/Sunsets/large/19.jpeg" data-lightbox="gallery"
+        data-title="at the end of the day (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/19.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/20.jpeg" data-lightbox="gallery"
+        data-title="Nature the Paineter (St. Mary's Island, Kent, UK)"><img src="/Galleries/Sunsets/small/20.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/21.jpeg" data-lightbox="gallery"
+        data-title="The Night is Coming  (Klaipėda, Lithuania)"><img src="/Galleries/Sunsets/small/21.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Sunsets/large/11.jpg" data-lightbox="gallery"
+        data-title="Baltic Sunset (Klaipėda, Olando Kepurė, Lithuania)"><img src="/Galleries/Sunsets/small/11.jpg"
+          alt="photo"></a>
+
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2020 Sowlus Simkus Photography
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 
 </html>

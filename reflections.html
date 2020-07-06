@@ -2,258 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/galleries.css">
+  <link rel="stylesheet" href="/css/lightbox.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 812px)" href="/css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width: 550px)" href="/css/mobile.css">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118663084-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-118663084-1');
-    </script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="lightbox.css">
-    <link rel="stylesheet" type="text/css" href="reflections.css">
-    <link rel="stylesheet" type="text/css" href="ipad.css" media="screen and (max-width: 1109px)">
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 620px)">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <title>Sowlus Simkus Photography | Reflections</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <title>Sowlus Simkus | Reflections</title>
 </head>
+
+<header id="navbar">
+  <div class="brand">
+    <img src="/logos/SSPlogo.png" alt="logo">
+    <h2>Sowlus Simkus</h2>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#" class="active">Gallery</a>
+      <ul>
+        <li><a href="lithuania.html">Lithuania</a></li>
+        <li><a href="portugal.html">Portugal</a></li>
+        <li><a href="reflections.html" class="active">Reflections</a></li>
+        <li><a href="sunsets.html">Sunsets</a></li>
+      </ul>
+    </li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</header>
 
 <body>
 
-    <!-- Header -->
-    <!-- Mobile Collapse button -->
-    <div class="mobile-sidebar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="reflections.html" class="current">Reflections</a></li>
-            <li><a href="portugal.html">Portugal</a></li>
-            <li><a href="lithuania.html">Lithuania</a></li>
+  <!-- LITHUANIA GALLERY -->
 
-            <li><a href="sunsets.html">Sunsets</a></li>
-        </ul>
-        <button class="sidebar-btn">
-            <span></span>
-        </button>
-    </div>
-    <div class="mobile-branding">
-        <img src="logos/SSPlogo.png" alt="logo">
-        <h2>Sowlus Simkus</h2>
-    </div>
-    <div id="header">
+  <div class="row">
 
-        <!-- Logo & Title -->
-        <div id="branding">
-            <img src="logos/SSPlogo.png" alt="logo" width="70" height="70">
-            <a class="index" href="./index.html">
-                <h2>Sowlus Simkus</h2>
-            </a>
-        </div>
-
-        <!-- Navigation Menu -->
-        <div id="navbar">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="current" href="reflections.html">Reflections</a>
-                </li>
-                <li>
-                    <a href="portugal.html">Portugal</a>
-                </li>
-                <li>
-                    <a href="lithuania.html">Lithuania</a>
-                </li>
-                <li>
-                    <a href="sunsets.html">Sunsets</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Social Icons -->
-        <div id="social-navbar">
-            <a href="https://www.facebook.com/sowlusimkus/" target="_blank">
-                <i class="fab fa-facebook-f fa-lg"></i>
-            </a>
-            <a href="https://500px.com/sowluss" target="_blank">
-                <i class="fab fa-500px fa-lg"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCvJ94MLfisViSgwBXn9QksQ?view_as=subscriber" target="_blank">
-                <i class="fab fa-youtube fa-lg"></i>
-            </a>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Share</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
-                        <i class="fab fa-facebook-square fa-lg"></i>Share on Facebook</a>
-                    <a href="http://www.twitter.com/share?url=http://www.sowlusimkus.com/reflections.html"
-                        target="_blank">
-                        <i class="fab fa-twitter-square fa-lg"></i>Share on Twiter</a>
-                    <a href="https://pinterest.com/pin/create/button/?url=&media=&description=" target="_blank">
-                        <i class="fab fa-pinterest-square fa-lg"></i>Pin on Pinterest</a>
-                </div>
-            </div>
-        </div>
+    <div class="column">
+      <a href="/Galleries/Reflections/large/1.jpg" data-lightbox="gallery"
+        data-title="Evening Reflections (St. Mary's Island, Kent, UK)"><img src="/Galleries/Reflections/small/1.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/6.jpg" data-lightbox="gallery"
+        data-title="Autum Palette (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/6.jpg" alt="photo"></a>
+      <a href="/Galleries/Reflections/large/2.jpg" data-lightbox="gallery"
+        data-title="One Quiet Autumn Day (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/2.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/3.jpg" data-lightbox="gallery"
+        data-title="Calm Hour (Ljubljana, Slovenia)"><img src="/Galleries/Reflections/small/3.jpg" alt="photo"></a>
+      <a href="/Galleries/Reflections/large/4.jpeg" data-lightbox="gallery"
+        data-title="Evening Stilness (Klaipėda, Lithuania)"><img src="/Galleries/Reflections/small/4.jpeg"
+          alt="photo"></a>
     </div>
 
-    <!-- GALLERY STARTS HERE -->
-    <div class="row">
-        <div class="column">
-            <a href="Galleries/Reflections/Resized_L/Reflections_24.jpeg" data-lightbox="gallery_R"
-                data-title="Double Vision (Žemaičių Kalvarija, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_24.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_1.jpg" data-lightbox="gallery_R"
-                data-title="Sunset Colours (St. Mary's Island, Kent, UK)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_1.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_15.jpg" data-lightbox="gallery_R"
-                data-title="Mirror Lake (Platelia Lake, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_15.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_6.jpg" data-lightbox="gallery_R"
-                data-title="Autum Palette (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_6.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_3.jpg" data-lightbox="gallery_R"
-                data-title="Ljubljana Reflections (Slovenia)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_3.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_16v.jpg" data-lightbox="gallery_R"
-                data-title="Tall Reflections (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_16v.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_21.jpg" data-lightbox="gallery_R"
-                data-title="Autumn Palette (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_21.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
+    <div class="column">
+      <a href="/Galleries/Reflections/large/27.jpg" data-lightbox="gallery"
+        data-title="Autumn Views (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/27.jpg" alt="photo"></a>
+      <a href="/Galleries/Reflections/large/8.jpg" data-lightbox="gallery"
+        data-title="Exploring Parque da Pena (Sintra, Portugal)"><img src="/Galleries/Reflections/small/8.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/9.jpg" data-lightbox="gallery"
+        data-title="A Moment of Stillness (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/9.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/10.jpg" data-lightbox="gallery"
+        data-title="Autumn Landscapes (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/10.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/11.jpg" data-lightbox="gallery"
+        data-title="Spending Time on the Lake (Platelia Lake, Lithuania)"><img src="/Galleries/Reflections/small/11.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/31.jpg" data-lightbox="gallery"
+        data-title="Mirror Waters (Lisbon, Portugal)"><img src="/Galleries/Reflections/small/31.jpg" alt="photo"></a>
+      <a href="/Galleries/Reflections/large/5.jpg" data-lightbox="gallery"
+        data-title="One Early Autumn Day (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/5.jpg"
+          alt="photo"></a>
 
-            <a href="Galleries/Reflections/Resized_L/Reflections_27.jpg" data-lightbox="gallery_R"
-                data-title="Autumn Reflections (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_27.jpg" class="focus" width="100%">
-            </a>
-
-            <a href="Galleries/Reflections/Resized_L/Reflections_25.jpeg" data-lightbox="gallery_R"
-                data-title="Evening Calmness (Plinkšių Lake, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_25.jpeg" class="focus" width="100%">
-            </a>
-
-            <a href="Galleries/Reflections/Resized_L/lReflections_18v.jpg" data-lightbox="gallery_R"
-                data-title="Calm Reflections (Wandsworth Common Park, London)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_18v.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_20.jpg" data-lightbox="gallery_R"
-                data-title="Deep Blue (Chatham Maritime Marina, UK)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_20.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_4v.jpeg" data-lightbox="gallery_R"
-                data-title="Evening Stilness (Klaipėda, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_4v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_5.jpg" data-lightbox="gallery_R"
-                data-title="One Early Autumn Day (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_5.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_17.jpg" data-lightbox="gallery_R"
-                data-title="On a Quite Winter Day (Klaipėda, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_17.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Reflections/Resized_L/Reflections_23.jpg" data-lightbox="gallery_R"
-                data-title="Evening in a Countryside (Žemaičių Kalvarija, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_23.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_14.jpg" data-lightbox="gallery_R"
-                data-title="A Walk in the Park (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_14.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_19.jpg" data-lightbox="gallery_R"
-                data-title="Mirror Waters (Holland Park, London)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_19.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_9.jpg" data-lightbox="gallery_R"
-                data-title="Quiet Nature (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_9.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_10.jpg" data-lightbox="gallery_R"
-                data-title="Autumn Landscapes (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_10.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_2v.jpg" data-lightbox="gallery_R"
-                data-title="Autumn Calmness (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_2v.jpg" class="focus" width="100%">
-            </a>
-            <!-- <a href="Galleries/Reflections/Resized_L/Reflections_22.jpg" data-lightbox="gallery_R">
-                <img src="Galleries/Reflections/Resized_s/sReflections_22.jpg" class="focus" width="100%">
-            </a> -->
-            <a href="Galleries/Reflections/Resized_L/Reflections_29.jpg" data-lightbox="gallery_R"
-                data-title="Crystal Waters (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_29.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Reflections/Resized_L/Reflections_28.jpg" data-lightbox="gallery_R"
-                data-title="Autumn-Ready (Plungė, Lithuania)">
-                <img src="Galleries/Reflections/Resized_s/sReflections_28.jpg" class="focus" width="100%">
-            </a>
-
-            <a href="Galleries/Reflections/Resized_L/Reflections_26.jpeg" data-lightbox="gallery_R"
-                data-title="Springtime Calmness (Plinkšių Lake, Lithuania">
-                <img src="Galleries/Reflections/Resized_s/sReflections_26.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_11.jpg" data-lightbox="gallery_R"
-                data-title="Spending Time on the Lake (Platelia Lake, Lithuania">
-                <img src="Galleries/Reflections/Resized_s/sReflections_11.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_12v.jpg" data-lightbox="gallery_R"
-                data-title="Nature Calmness (Plungė, Lithuania">
-                <img src="Galleries/Reflections/Resized_s/sReflections_12v.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_13v.jpg" data-lightbox="gallery_R"
-                data-title="Living Quiet Life (Klaipėda, Lithuania">
-                <img src="Galleries/Reflections/Resized_s/sReflections_13v.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/lReflections_7.jpg" data-lightbox="gallery_R"
-                data-title="Calm Neighbourhood (St. Mary's Island, Kent, UK">
-                <img src="Galleries/Reflections/Resized_s/sReflections_7.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Reflections/Resized_L/reflections8.jpg" data-lightbox="gallery_R"
-                data-title="Exploring Parque da Pena (Sintra, Portugal">
-                <img src="Galleries/Reflections/Resized_s/reflections8.jpg" class="focus" width="100%">
-            </a>
-        </div>
-    </div>
-    <div id="footer">
-        <h6>Copyright &copy; 2019 Sowlus Simkus Photography</h6>
-        <h6>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="script.js"></script>
-    <script src="lightbox.js"></script>
+    <div class="column">
+      <a href="/Galleries/Reflections/large/23.jpg" data-lightbox="gallery"
+        data-title="Evening in a Countryside (Žemaičių Kalvarija, Lithuania)"><img
+          src="/Galleries/Reflections/small/23.jpg" alt="photo"></a>
+      <a href="/Galleries/Reflections/large/24.jpeg" data-lightbox="gallery"
+        data-title="Double Vision (Žemaičių Kalvarija, Lithuania)"><img src="/Galleries/Reflections/small/24.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/14.jpg" data-lightbox="gallery"
+        data-title="Time for Relaxation (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/14.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/15.jpg" data-lightbox="gallery"
+        data-title="A Moment of Stillness (Platelia Lake, Lithuania)"><img src="/Galleries/Reflections/small/15.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/17.jpg" data-lightbox="gallery"
+        data-title="On a Quiet Winter Day (Klaipėda, Lithuania)"><img src="/Galleries/Reflections/small/17.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/18.jpg" data-lightbox="gallery"
+        data-title="Calm Reflections (Wandsworth Common Park, London)"><img src="/Galleries/Reflections/small/18.jpg"
+          alt="photo"></a>
+    </div>
+
+    <div class="column">
+      <a href="/Galleries/Reflections/large/19.jpg" data-lightbox="gallery"
+        data-title="Mirror Waters (Holland Park, London)"><img src="/Galleries/Reflections/small/19.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/20.jpg" data-lightbox="gallery"
+        data-title="Deep Blue (Chatham Maritime Marina, Kent, UK)"><img src="/Galleries/Reflections/small/20.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/21.jpg" data-lightbox="gallery"
+        data-title="Autumn Landscapes (Plungė, Lithuania)"><img src="/Galleries/Reflections/small/21.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/13.jpg" data-lightbox="gallery"
+        data-title="Living Quiet Life (Klaipėda, Lithuania)"><img src="/Galleries/Reflections/small/13.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/25.jpeg" data-lightbox="gallery"
+        data-title="Still Nature (Plinkšių Lake, Lithuania)"><img src="/Galleries/Reflections/small/25.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Reflections/large/7.jpg" data-lightbox="gallery"
+        data-title="Calm Neighbourhood (St. Mary's Island, Kent, UK)"><img src="/Galleries/Reflections/small/7.jpg"
+          alt="photo"></a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2020 Sowlus Simkus Photography
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 
 </html>

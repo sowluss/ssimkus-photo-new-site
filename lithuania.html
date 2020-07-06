@@ -2,206 +2,130 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/galleries.css">
+  <link rel="stylesheet" href="/css/lightbox.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 812px)" href="/css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width: 550px)" href="/css/mobile.css">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118663084-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-118663084-1');
-    </script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="lightbox.css">
-    <link rel="stylesheet" type="text/css" href="reflections.css">
-    <link rel="stylesheet" type="text/css" href="ipad.css" media="screen and (max-width: 1109px)">
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 620px)">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <title>Sowlus Simkus Photography | Lithuania</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <title>Sowlus Simkus | Lithuania</title>
 </head>
+
+<header id="navbar">
+  <div class="brand">
+    <img src="/logos/SSPlogo.png" alt="logo">
+    <h2>Sowlus Simkus</h2>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#" class="active">Gallery</a>
+      <ul>
+        <li><a href="lithuania.html" class="active">Lithuania</a></li>
+        <li><a href="portugal.html">Portugal</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+        <li><a href="sunsets.html">Sunsets</a></li>
+      </ul>
+    </li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</header>
 
 <body>
 
-    <!-- Header -->
-    <!-- Mobile Collapse button -->
-    <div class="mobile-sidebar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="reflections.html">Reflections</a></li>
-            <li><a href="portugal.html">Portugal</a></li>
-            <li><a href="lithuania.html" class="current">Lithuania</a></li>
-            <li><a href="sunsets.html">Sunsets</a></li>
-        </ul>
-        <button class="sidebar-btn">
-            <span></span>
-        </button>
-    </div>
-    <div class="mobile-branding">
-        <img src="logos/SSPlogo.png" alt="logo">
-        <h2>Sowlus Simkus</h2>
-    </div>
-    <div id="header">
+  <!-- LITHUANIA GALLERY -->
 
-        <!-- Logo & Title -->
-        <div id="branding">
-            <img src="logos/SSPlogo.png" alt="logo" width="70" height="70">
-            <a class="index" href="./index.html">
-                <h2>Sowlus Simkus</h2>
-            </a>
-        </div>
+  <div class="row">
 
-        <!-- Navigation Menu -->
-        <div id="navbar">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="reflections.html">Reflections</a>
-                </li>
-                <li>
-                    <a href="portugal.html">Portugal</a>
-                </li>
-                <li>
-                    <a class="current" href="lithuania.html">Lithuania</a>
-                </li>
-                <li>
-                    <a href="sunsets.html">Sunsets</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Social Icons -->
-        <div id="social-navbar">
-            <a href="https://www.facebook.com/sowlusimkus/" target="_blank">
-                <i class="fab fa-facebook-f fa-lg"></i>
-            </a>
-            <a href="https://500px.com/sowluss" target="_blank">
-                <i class="fab fa-500px fa-lg"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCvJ94MLfisViSgwBXn9QksQ?view_as=subscriber" target="_blank">
-                <i class="fab fa-youtube fa-lg"></i>
-            </a>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Share</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
-                        <i class="fab fa-facebook-square fa-lg"></i>Share on Facebook</a>
-                    <a href="http://www.twitter.com/share?url=http://www.sowlusimkus.com/lithuania.html"
-                        target="_blank">
-                        <i class="fab fa-twitter-square fa-lg"></i>Share on Twiter</a>
-                    <a href="https://pinterest.com/pin/create/button/?url=&media=&description=" target="_blank">
-                        <i class="fab fa-pinterest-square fa-lg"></i>Pin on Pinterest</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <a href="Galleries/Lithuania/resized_L/Lithuania_1.jpg" data-lightbox="gallery_L"
-                data-title="Old Town Colours">
-                <img src="Galleries/Lithuania/resized_S/lithuania_1.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_10.jpeg" data-lightbox="gallery_L"
-                data-title="One winter night">
-                <img src="Galleries/Lithuania/resized_S/lithuania_10.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_11.jpg" data-lightbox="gallery_L" data-title="Countryside">
-                <img src="Galleries/Lithuania/resized_S/lithuania_11.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_3v.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_3v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_13v.jpg" data-lightbox="gallery_L" data-title="">
-                <img src="Galleries/Lithuania/resized_S/lithuania_13v.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Lithuania/resized_L/Lithuania_5.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_5.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_16v.jpeg" data-lightbox="gallery_L"
-                data-title="Preparing for the sunset">
-                <img src="Galleries/Lithuania/resized_S/lithuania_16v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_17.jpeg" data-lightbox="gallery_L"
-                data-title="Winter in the old town">
-                <img src="Galleries/Lithuania/resized_S/lithuania_17.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_18.jpeg" data-lightbox="gallery_L"
-                data-title="Walking in a winter wonderland">
-                <img src="Galleries/Lithuania/resized_S/lithuania_18.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_19.jpeg" data-lightbox="gallery_L"
-                data-title="Into the light">
-                <img src="Galleries/Lithuania/resized_S/lithuania_19.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_14.jpg" data-lightbox="gallery_L" data-title="Pine forest">
-                <img src="Galleries/Lithuania/resized_S/lithuania_14.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Lithuania/resized_L/Lithuania_20.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_20.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_21v.jpg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_21v.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_2v.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_2v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_4.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_4.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Little duck.jpeg" data-lightbox="gallery_L"
-                data-title="Young florist">
-                <img src="Galleries/Lithuania/resized_S/Little duck.jpg" class="focus" width="100%">
-            </a>
-        </div>
-        <div class="column">
-            <a href="Galleries/Lithuania/resized_L/Lithuania_6v.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_6v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_7.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_7.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_8v.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_8v.jpeg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_9.jpeg" data-lightbox="gallery_L">
-                <img src="Galleries/Lithuania/resized_S/lithuania_9.jpg" class="focus" width="100%">
-            </a>
-            <a href="Galleries/Lithuania/resized_L/Lithuania_15.jpeg" data-lightbox="gallery_L"
-                data-title="Sunny Christmas Day">
-                <img src="Galleries/Lithuania/resized_S/lithuania_15.jpg" class="focus" width="100%">
-            </a>
-        </div>
-    </div>
-    <div id="footer">
-        <h6>Copyright &copy; 2019 Sowlus Simkus Photography</h6>
-        <h6>
+    <div class="column">
+      <a href="/Galleries/Lithuania/large/1.jpg" data-lightbox="gallery"
+        data-title="Old Town Colors (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/1.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/10.jpeg" data-lightbox="gallery"
+        data-title="One Winter Night (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/10.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/11.jpg" data-lightbox="gallery"
+        data-title="Close to Nature (Plateliai, Lithuania)"><img src="/Galleries/Lithuania/small/11.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/13.jpg" data-lightbox="gallery"
+        data-title="Spacious Home (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/13v.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/2v.jpeg" data-lightbox="gallery"
+        data-title="Overlooking the Lake (Plateliai, Lithuania)"><img src="/Galleries/Lithuania/small/2v.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/25.jpg" data-lightbox="gallery"
+        data-title="One Summer Day (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/25.jpg" alt="photo"></a>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="script.js"></script>
-    <script src="lightbox.js"></script>
+    <div class="column">
+      <a href="/Galleries/Lithuania/large/16v.jpeg" data-lightbox="gallery"
+        data-title="Preparing for the Sunset (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/16v.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/17.jpeg" data-lightbox="gallery"
+        data-title="Winter in the Old Town (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/17.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/18.jpeg" data-lightbox="gallery"
+        data-title="Walking in the Winter Wonderlan (Smiltynė Forest, Klaipėda, Lithuania)"><img
+          src="/Galleries/Lithuania/small/18.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/19.jpeg" data-lightbox="gallery"
+        data-title="Into the Light (Smiltynė, Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/19.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/20.jpeg" data-lightbox="gallery"
+        data-title="Autumn Nature (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/20.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/3v.jpeg" data-lightbox="gallery"
+        data-title="Coastline Nature (Olando Kepurė, Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/3v.jpeg"
+          alt="photo"></a>
+    </div>
+
+    <div class="column">
+      <a href="/Galleries/Lithuania/large/4.jpeg" data-lightbox="gallery"
+        data-title="Autumn in a Park (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/4.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/5.jpeg" data-lightbox="gallery"
+        data-title="Baltic Coastline (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/5.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/6.jpeg" data-lightbox="gallery"
+        data-title="Colors of Summer (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/6v.jpeg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/7.jpeg" data-lightbox="gallery"
+        data-title="Overlooking Wilderenes (Smiltynė Forest, Klaipėda, Lithuania)"><img
+          src="/Galleries/Lithuania/small/7.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/8v.jpeg" data-lightbox="gallery"
+        data-title="Pride of the City (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/8v.jpeg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/9.jpeg" data-lightbox="gallery"
+        data-title="Frozen Old Town (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/9.jpg" alt="photo"></a>
+    </div>
+
+    <div class="column">
+      <a href="/Galleries/Lithuania/large/21v.jpg" data-lightbox="gallery"
+        data-title="On the Winter Paths (Smiltynė Forest, Klaipėda, Lithuania)"><img
+          src="/Galleries/Lithuania/small/21v.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/22.jpeg" data-lightbox="gallery"
+        data-title="Young Florist (Plateliai, Lithuania)"><img src="/Galleries/Lithuania/small/22.jpg" alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/23.jpg" data-lightbox="gallery"
+        data-title="On the Cold Night (Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/23.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/24.jpg" data-lightbox="gallery"
+        data-title="Standing Alone (Smiltynė, Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/24.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/15.jpeg" data-lightbox="gallery"
+        data-title="Christmas Day in a Small Town (Plungė, Lithuania)"><img src="/Galleries/Lithuania/small/15.jpg"
+          alt="photo"></a>
+      <a href="/Galleries/Lithuania/large/14.jpg" data-lightbox="gallery"
+        data-title="Standing Still (Smiltynė Forest, Klaipėda, Lithuania)"><img src="/Galleries/Lithuania/small/14.jpg"
+          alt="photo"></a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2020 Sowlus Simkus Photography
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 
 </html>

@@ -7,10 +7,6 @@
     max-width: 50%;
   }
 
-  header {
-    position: static;
-  }
-
   section#about-page  {
     font-size: 0.6rem;
   }
